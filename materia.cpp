@@ -11,11 +11,13 @@ class Materia {
   public:
     int numero;
     string nome;
-    vector<string> escolas;
+    int credito;
+    vector<string> conflitos;
     
-  Materia(int _num, string _nome) {
+  Materia(int _num, string _nome, int _credito) {
     numero = _num;
     nome = _nome;
+    credito = _credito;
   }
 };
 

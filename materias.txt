@@ -1,73 +1,73 @@
-113034/Calculo/6
-113468/ISC/4
-113476/APC/6
-116726/InfoSoc/2
-113450/FTC/4
-129011/CircuitosL/4
-129020/LCL/6
-113042/C2/6
-113093/IAL/6
-116319/ED/4
-116394/OAC/4
-117889/TP1/2
-113107/A1/6
-113417/CN/6
-115045/PE/6
-117366/LC1/4
-117897/TP2/4
-117901/TAG/4
-116572/Redes/4
-116343/LP/4
-117935/PC/4
-116441/ES/4
-116378/BD/4
-116653/IIA/4
-116432/SB/4
-117960/FSO/4
-116882/Automatos/8
-116416/SI/4
-117943/CompExperimenta/4
-117536/ProjAnaliseAlgo/4
-117951/Compiladores/4
-117927/SegurancaCompu/4
-117919/MetodologiaC/2
-116912/TrabalhoGrad1/2
-116921/TrabGrad2/2
-116297/TopAvancados/4
+(113034/Calculo /6
+(113468/ISC /4
+(113476/APC /6
+(116726/InfoSoc /2
+(113450/FTC /4
+(129011/CircuitosL /4
+(129020/LCL /6
+(113042/C2 /6
+(113093/IAL /6
+(116319/ED /4
+(116394/OAC /4
+(117889/TP1 /2
+(113107/A1 /6
+(113417/CN /6
+(115045/PE /6
+(117366/LC1 /4
+(117897/TP2 /4
+(117901/TAG /4
+(116572/Redes /4
+(116343/LP /4
+(117935/PC /4
+(116441/ES /4
+(116378/BD /4
+(116653/IIA /4
+(116432/SB /4
+(117960/FSO /4
+(116882/Automatos /8
+(116416/SI /4
+(117943/CompExperimenta /4
+(117536/ProjAnaliseAlgo /4
+(117951/Compiladores /4
+(117927/SegurancaCompu /4
+(117919/MetodologiaC /2
+(116912/TrabalhoGrad1 /2
+(116921/TrabGrad2 /2
+(116297/TopAvancados /4
 ------------
-Calculo:ISC/APC/InfoSoc
-ISC:Calculo/APC/InfoSoc
-APC:Calculo/ISC/InfoSoc
-InfoSoc:Calculo/APC/ISC
-FTC:CircuitosL/LCL/C2/IAL/ED
-CircuitosL:FTC/LCL/C2/IAL/ED
-LCL:CircuitosL/FTC/C2/IAL/ED
-C2:CircuitosL/FTC/IAL/ED/LCL
-IAL:C2/CircuitosL/FTC/ED/LCL
-ED:IAL/C2/CircuitosL/FTC/LCL
-OAC:TP1/A1/CN/PE
-TP1:OAC/A1/CN/PE
-A1:TP1/OAC/CN/PE
-CN:A1/TP1/OAC/PE
-PE:CN/A1/TP1/OAC
-LC1:TP2/TAG/Redes
-TP2:LC1/TAG/Redes
-TAG:TP2/LC1/Redes
-Redes:TAG/TP2/LC1
-LP:PC/ES/BD/IIA
-PC:LC/ES/BD/IIA
-ES:PC/LC/BD/IIA
-BD:ES/PC/LC/IIA
-IIA:BD/ES/PC/LC
-SB:FSO/Automatos/SI/CompExperimenta
-FSO:SB/Automatos/SI/CompExperimenta
-Automatos:FSO/SB/SI/CompExperimenta
-SI:Automatos/FSO/SB/CompExperimenta
-CompExperimenta:SI/Automatos/FSO/SB
-ProjAnaliseAlgo:Compiladores/SegurancaCompu
-Compiladores:ProjAnaliseAlgo/SegurancaCompu
-SegurancaCompu:Compiladores/ProjAnaliseAlgo
-MetodologiaC:TrabalhoGrad
-TrabalhoGrad:MetodologiaC
-TrabGrad2:TopAvancados
-TopAvancados:TrabGrad2
+[Calculo:ISC/APC/InfoSoc
+[ISC:Calculo/APC/InfoSoc
+[APC:Calculo/ISC/InfoSoc
+[InfoSoc:Calculo/APC/ISC
+[FTC:CircuitosL/LCL/C2/IAL/ED
+[CircuitosL:FTC/LCL/C2/IAL/ED
+[LCL:CircuitosL/FTC/C2/IAL/ED
+[C2:CircuitosL/FTC/IAL/ED/LCL
+[IAL:C2/CircuitosL/FTC/ED/LCL
+[ED:IAL/C2/CircuitosL/FTC/LCL
+[OAC:TP1/A1/CN/PE
+[TP1:OAC/A1/CN/PE
+[A1:TP1/OAC/CN/PE
+[CN:A1/TP1/OAC/PE
+[PE:CN/A1/TP1/OAC
+[LC1:TP2/TAG/Redes
+[TP2:LC1/TAG/Redes
+[TAG:TP2/LC1/Redes
+[Redes:TAG/TP2/LC1
+[LP:PC/ES/BD/IIA
+[PC:LC/ES/BD/IIA
+[ES:PC/LC/BD/IIA
+[BD:ES/PC/LC/IIA
+[IIA:BD/ES/PC/LC
+[SB:FSO/Automatos/SI/CompExperimenta
+[FSO:SB/Automatos/SI/CompExperimenta
+[Automatos:FSO/SB/SI/CompExperimenta
+[SI:Automatos/FSO/SB/CompExperimenta
+[CompExperimenta:SI/Automatos/FSO/SB
+[ProjAnaliseAlgo:Compiladores/SegurancaCompu
+[Compiladores:ProjAnaliseAlgo/SegurancaCompu
+[SegurancaCompu:Compiladores/ProjAnaliseAlgo
+[MetodologiaC:TrabalhoGrad
+[TrabalhoGrad:MetodologiaC
+[TrabGrad2:TopAvancados
+[TopAvancados:TrabGrad2
