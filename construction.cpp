@@ -6,6 +6,46 @@
 #include "construction.h"
 
 using namespace std;
+
+void criaDotMaterias(vector<Materia> materias)
+{
+    ofstream myfile("graphviz.dot");
+    if (myfile.is_open())
+    {
+        myfile << "graph G {\n";
+        for (auto curso : materias)
+        {
+            for (unsigned int i = 0; i < curso.conflitos.size(); i++)
+            {
+                myfile << "       " << curso.nome;
+                myfile << " -- ";
+                myfile << curso.conflitos[i] << ";"
+                       << "\n";
+            }
+            if (materias.size() == 0)
+            {
+                cout << "--";
+            }
+            cout << endl;
+        }
+    }
+    else
+        cout << "Unable to open file";
+    myfile << "}";
+    myfile.close();
+}
+
+// for (unsigned int i = 0; i < grafo.size(); i++) {
+//     for (auto v : grafo[i]) {
+//       myfile << "       " << nome[i];
+//       myfile << " -> ";
+//       myfile << nome[v] << ";" << "\n";
+//     }
+//     if (grafo[i].size() == 0) {
+//         cout << "--";
+//     }
+// }
+
 //Substitui um caractere por outro, usado para separar string
 string replaceChar(string str, char ch1, char ch2)
 {
@@ -19,7 +59,6 @@ string replaceChar(string str, char ch1, char ch2)
 }
 //usado para separar string
 
-int pegaIndice(string mat, vector<Materia> &materias) {}
 vector<string> split(string s, char delim)
 {
     vector<string> flds;
@@ -107,9 +146,23 @@ void imprimeGrafo(vector<Materia> &materias)
 {
     for (auto curso : materias)
     {
-        for (auto c : curso.conflitos)
+        cout << "NomeCurso: " << curso.nome;
+        for (unsigned int i = 0; i < curso.conflitos.size(); i++)
         {
-            cout << "conflitos " << c;
+            cout << " " << curso.conflitos[i];
         }
     }
 }
+
+// void colorMateria(vector<Materia> &materias, vector<int> &CoresMaterias)
+// {
+
+//     for (auto curso : materias)
+//     {//inicializa o vetor de cores nao iniciadas
+//         for (unsigned int i = 0; i < materias.size(); i++)
+//         {
+//             //inicializando o vetor cores com unassigned
+//             CoresMaterias[i] = -1;
+//         }
+//     }
+// };

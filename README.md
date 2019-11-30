@@ -12,9 +12,9 @@ O algoritmo utilizará principalmente um algoritmo força bruta para encontrar, 
 
 Ideia:
 
-1- O algoritmo procura os vertices de maiores graus.
-2- Ele pega o vertice de maior grau e colore seus vizinhos
-3- Vertices ligados por arestas nao podem ter as mesmas cores
+1- O algoritmo Recebe a lista de materias
+2- Vertices ligados por arestas nao podem ter as mesmas cores
+3- Fornece uma cor diferente para cada vertice de matéria.
 
 
 Considerando os creditos por materias:
@@ -34,6 +34,22 @@ Input: Grafo de cursos conflitantes: O cursos sao os vertices do grafo e as ares
 
 Exemplo: Calculo, ISC, APC, Infosoc
 
-Passo 1: Montar o grafo.
 
-Passo 2: Calcular o grau dos vertices dos grafos
+## Imagem 
+### Graphviz
+#### Grafo inicial
+Gerada ao executar o código pela função criaDotMaterias() no arquivo constuction.cpp / construction.h
+preenche o arquivo graphviz.dot com as diretrizes para a geração da image
+```
+	$ dot -Tpng graphviz.dot -o imagem.png	
+```
+diretório/arquivo saída
+```
+	../coloring/imagem.png
+```
+
+#Condiçoes para conflito de horario
+
+Não pode haver a mesma materia duas vezes no mesmo dia
+Não pode haver a mesma materia dois dias seguidos
+
