@@ -17,12 +17,20 @@ using namespace std;
 int main() {
     vector<Materia> materias;
     criaMateria("materias.txt", materias);
+    cout<<"Grafo base";
 
   cout << "Teste vetor materias" ;
-  for (auto curso: materias) {
-      if(curso.nome == "Calculo") cout<< curso.nome;
-      //cout<<"\n nome "<< curso.nome<<"\n credito"<< curso.credito;
+
+  for(auto c: materias){
+      cout<<"nome: "<< c.nome<<"\n"<< "conflitos";
+      for(unsigned int i =0; i< c.conflitos.size(); i++){
+          cout<< c.conflitos[i]<< " ";
+      }
+      cout<< "\n";
   }
+
+
+
 
 
 }
